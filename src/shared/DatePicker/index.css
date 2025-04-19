@@ -1,0 +1,4 @@
+.datepicker-wrapper {
+  /* Override MUI default margin for date picker */
+  margin-left: 8px;
+}

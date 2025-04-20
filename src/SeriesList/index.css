@@ -1,0 +1,12 @@
+.scroll-container {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 1rem;
+  background: #fff;
+}
+
+#add-button {
+  flex: 0 0 auto;
+  /* Prevents from stretching to fill container due to parent's display:flex */
+  align-self: self-start;
+}

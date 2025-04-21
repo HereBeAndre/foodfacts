@@ -5,6 +5,18 @@
   background: #fff;
 }
 
+.series-box {
+  background: #f2f0f0;
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+
+.series-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #add-button {
   flex: 0 0 auto;
   /* Prevents from stretching to fill container due to parent's display:flex */

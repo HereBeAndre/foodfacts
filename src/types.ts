@@ -7,6 +7,8 @@ type Transformation = {
 };
 
 export type Series = {
+  // Not part of the original interface, but needed for stable reference to delete the series
+  id: string;
   name: string;
   transformations: Transformation[];
 };

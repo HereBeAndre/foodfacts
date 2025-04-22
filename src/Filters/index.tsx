@@ -34,6 +34,7 @@ export const Filters = () => (
     <LabelGrid>
       <p>Filter:</p>
     </LabelGrid>
+
     <FieldGrid>
       <MultipleSelectChip
         inputLabel="Category"

@@ -1,3 +1,14 @@
+### Missing features
+
+1. Add Simulation Step should create new simulation step (currently, it just logs to console).
+2. Step block is missing.
+
+### Potential improvements
+
+1. Implement a speed dial like component to add simulation steps (cons: cluttered UI, limited number of actions?).
+2. Being able to create multiple simulation steps - while leaving the previous ones blank - isn't great. Maybe the "Add series" button should be disabled until the current simulation step is filled out?
+3. Aggregation should occur by one field, not by multiple fields (based on DS in PDF doc). I didn't notice that, thus I used a `multi` select and then ran out of time.
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
@@ -21,13 +32,3 @@ export default tseslint.config({
   },
 });
 ```
-
-### Room for improvement
-
-1. Simulation steps should display when "Add Simulation Step" is clicked.
-2. Or, implement a speed dial like component to add simulation steps (cons: cluttered UI?).
-
-Being able to create multiple simulation steps - without having completed the most recently added one - isn't great.
-Ideally, the "Add series" button should be disabled until the current simulation step is completed.
-
-Aggregation should be by one field, not by multiple fields (based on DS). I didn't notice that, thus I used a `multi` select and then ran out of time.

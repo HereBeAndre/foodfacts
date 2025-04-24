@@ -11,10 +11,14 @@
   margin: 1rem 0;
 }
 
-.series-top {
+.flex-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.flex-container .series-input {
+  flex-grow: 0.02;
 }
 
 #add-button {

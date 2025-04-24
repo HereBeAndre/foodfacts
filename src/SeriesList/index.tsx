@@ -37,9 +37,11 @@ export const SeriesListComponent = () => {
         {seriesList.length > 0 &&
           seriesList.map(({ id }, index) => (
             <div key={id} className="series-box">
-              <div className="series-top">
-                <p>{`Series ${index + 1}`}:</p>
-                <TextField label="Name" variant="outlined" />
+              <div className="flex-container">
+                <div className="flex-container series-input">
+                  <span>{`Series ${index + 1}`}:</span>
+                  <TextField label="Name" variant="outlined" />
+                </div>
                 <Button variant="contained" onClick={() => deleteSeries(id)}>
                   Delete Series
                 </Button>
